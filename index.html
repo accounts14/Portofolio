@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Praise Otniel Beethoven</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body { font-family: 'Poppins', sans-serif; }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white selection:bg-blue-500 selection:text-white">
+
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur-sm border-b border-slate-700">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-400">Praise<span class="text-white">.Dev</span></h1>
+            <ul class="hidden md:flex space-x-8 text-slate-300">
+                <li><a href="#about" class="hover:text-blue-400 transition">Tentang Saya</a></li>
+                <li><a href="#skills" class="hover:text-blue-400 transition">Skill</a></li>
+                <li><a href="#achievements" class="hover:text-blue-400 transition">Prestasi</a></li>
+                <li><a href="#projects" class="hover:text-blue-400 transition">Proyek</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex items-center justify-center pt-20">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-10">
+            <div class="md:w-1/2 text-center md:text-left">
+                <p class="text-blue-400 font-semibold mb-2">Halo, Saya</p>
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">Praise Otniel <br> Beethoven</h1>
+                <p class="text-slate-400 text-lg mb-6">
+                    Mahasiswa Ilmu Komputer di <span class="text-white font-semibold">Universitas Bandar Lampung</span>. 
+                    Calon Programmer masa depan yang fokus pada Web Development, Mobile Apps (Flutter), dan Inovasi IoT.
+                </p>
+                <div class="flex gap-4 justify-center md:justify-start">
+                    <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold transition">Lihat Proyek</a>
+                    <a href="https://wa.me/628123456789" class="border border-slate-500 hover:border-white text-slate-300 hover:text-white px-6 py-3 rounded-full font-semibold transition">Kontak Saya</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative w-64 h-64 md:w-80 md:h-80">
+                    <div class="absolute inset-0 bg-blue-500 rounded-full blur-2xl opacity-20"></div>
+                    <img src="asset/MyProfile.jpg" alt="Praise Otniel" class="relative w-full h-full object-cover rounded-full border-4 border-slate-700 shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-slate-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12">
+                
+                <div>
+                    <h2 class="text-3xl font-bold mb-8 text-blue-400">Riwayat Pendidikan</h2>
+                    <div class="space-y-6 border-l-2 border-slate-600 pl-6 ml-2">
+                        <div class="relative">
+                            <span class="absolute -left-[31px] bg-blue-500 w-4 h-4 rounded-full mt-1.5"></span>
+                            <h3 class="text-xl font-semibold text-white">S1 Ilmu Komputer</h3>
+                            <p class="text-slate-400">Universitas Bandar Lampung (UBL) | Sedang ditempuh</p>
+                        </div>
+                        <div class="relative">
+                            <span class="absolute -left-[31px] bg-slate-600 w-4 h-4 rounded-full mt-1.5"></span>
+                            <h3 class="text-xl font-semibold text-white">Sekolah Menengah Atas (SMA)</h3>
+                            <p class="text-slate-400">Lulus Tahun 2023</p>
+                        </div>
+                        <div class="relative">
+                            <span class="absolute -left-[31px] bg-slate-600 w-4 h-4 rounded-full mt-1.5"></span>
+                            <h3 class="text-xl font-semibold text-white">Sekolah Menengah Pertama (SMP)</h3>
+                            <p class="text-slate-400">Lulus Tahun 2021</p>
+                        </div>
+                        <div class="relative">
+                            <span class="absolute -left-[31px] bg-slate-600 w-4 h-4 rounded-full mt-1.5"></span>
+                            <h3 class="text-xl font-semibold text-white">Sekolah Dasar (SD)</h3>
+                            <p class="text-slate-400">Lulus Tahun 2018</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="skills">
+                    <h2 class="text-3xl font-bold mb-8 text-blue-400">Tech Stack</h2>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="text-slate-300 mb-4 font-semibold border-b border-slate-600 pb-2">Languages</h4>
+                            <div class="flex gap-4 flex-wrap">
+                                <div class="flex flex-col items-center gap-2 group">
+                                    <i class="devicon-javascript-plain text-4xl text-yellow-400 group-hover:scale-110 transition"></i>
+                                    <span class="text-xs text-slate-400">JavaScript</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 group">
+                                    <i class="devicon-nodejs-plain text-4xl text-green-500 group-hover:scale-110 transition"></i>
+                                    <span class="text-xs text-slate-400">Node JS</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 group">
+                                    <i class="devicon-python-plain text-4xl text-blue-400 group-hover:scale-110 transition"></i>
+                                    <span class="text-xs text-slate-400">Python</span>
+                            </div>
+                            <div class="flex flex-col items-center gap-2 group">
+                                    <i class="devicon-cplusplus-plain text-4xl text-blue-500 group-hover:scale-110 transition"></i>
+                                    <span class="text-xs text-slate-400">C++ (IoT)</span>
+                        </div>
+                        </div>
+
+                        <div>
+                            <h4 class="text-slate-300 mb-4 font-semibold border-b border-slate-600 pb-2">Frameworks</h4>
+                            <div class="flex gap-4 flex-wrap">
+                                <div class="flex flex-col items-center gap-2 group">
+                                    <i class="devicon-flutter-plain text-4xl text-blue-400 group-hover:scale-110 transition"></i>
+                                    <span class="text-xs text-slate-400">Flutter</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 group">
+                                    <i class="devicon-laravel-original text-4xl text-red-600 group-hover:scale-110 transition"></i>
+                                    <span class="text-xs text-slate-400">Laravel</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                                <h4 class="text-slate-300 mb-4 font-semibold border-b border-slate-600 pb-2">Web Fundamentals</h4>
+                                <div class="flex gap-4 flex-wrap">
+                                <div class="flex flex-col items-center gap-2 group">
+                                    <i class="devicon-html5-plain text-4xl text-orange-500 group-hover:scale-110 transition"></i>
+                                    <span class="text-xs text-slate-400">HTML5</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 group">
+                                    <i class="devicon-css3-plain text-4xl text-blue-500 group-hover:scale-110 transition"></i>
+                                    <span class="text-xs text-slate-400">CSS3</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-span-2">
+                            <h4 class="text-slate-300 mb-4 font-semibold border-b border-slate-600 pb-2">Databases</h4>
+                            <div class="flex gap-6 flex-wrap">
+                                <div class="flex flex-col items-center gap-2 group">
+                                    <i class="devicon-mysql-original text-4xl text-blue-500 group-hover:scale-110 transition"></i>
+                                    <span class="text-xs text-slate-400">MySQL</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 group">
+                                    <i class="devicon-postgresql-plain text-4xl text-blue-300 group-hover:scale-110 transition"></i>
+                                    <span class="text-xs text-slate-400">PostgreSQL</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 group">
+                                    <i class="devicon-mongodb-plain text-4xl text-green-600 group-hover:scale-110 transition"></i>
+                                    <span class="text-xs text-slate-400">MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="py-20 bg-slate-900">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-10 text-center text-white"><i class="fas fa-trophy text-yellow-500 mr-2"></i> Prestasi Gemilang</h2>
+            
+            <div class="glass-card rounded-xl overflow-hidden shadow-2xl flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 p-2">
+                    <img src="asset/teknofest.jpeg" alt="Teknofest Turkey 2025" class="w-full h-64 md:h-96 object-cover rounded-lg">
+                </div>
+                <div class="md:w-1/2 p-8 text-left">
+                    <span class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full uppercase tracking-wider mb-2 inline-block">Internasional</span>
+                    <h3 class="text-2xl font-bold text-white mb-4">Presenter Favorit - Teknofest 2025 Turki</h3>
+                    <p class="text-slate-300 mb-6">
+                        Mewakili Universitas Bandar Lampung (UBL) dan Indonesia di ajang teknologi bergengsi dunia. Berhasil meraih predikat Presenter Favorit melalui presentasi inovasi teknologi yang berdampak.
+                    </p>
+                    <div class="flex items-center gap-2 text-slate-400">
+                        <i class="fas fa-map-marker-alt"></i> Turki
+                        <span class="mx-2">•</span>
+                        <i class="far fa-calendar-alt"></i> 2025
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-slate-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center text-white">Project Portfolio</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="glass-card rounded-xl overflow-hidden hover:transform hover:-translate-y-2 transition duration-300">
+                    <div class="h-48 overflow-hidden relative">
+                         <img src="asset/Smart Aquaculture.jpeg" alt="Smart Aquaculture" class="w-full h-full object-cover">
+                        <div class="absolute top-2 right-2 bg-green-600 text-white text-xs px-2 py-1 rounded">IoT & Web</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Smart Aquaculture System</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Sistem IoT inovatif untuk UMKM Perikanan. Mengintegrasikan hardware (pemberi pakan otomatis & sensor) dengan dashboard monitoring berbasis web.
+                        </p>
+                        <div class="flex gap-2 mb-4">
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">Laravel</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">IoT</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl overflow-hidden hover:transform hover:-translate-y-2 transition duration-300">
+                    <div class="h-48 overflow-hidden relative">
+                         <img src="asset/alat pakan ikan otomatis.jpeg" alt="Hardware Device" class="w-full h-full object-cover">
+                        <div class="absolute top-2 right-2 bg-gray-600 text-white text-xs px-2 py-1 rounded">Hardware</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">IoT Feeding Device</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Perangkat keras pemberi pakan otomatis menggunakan pipa PVC yang dimodifikasi dan dikontrol secara digital untuk efisiensi budidaya ikan.
+                        </p>
+                        <div class="flex gap-2 mb-4">
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">C++</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">Embedded</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="glass-card rounded-xl overflow-hidden hover:transform hover:-translate-y-2 transition duration-300">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="asset/Stunting .jpeg" alt="Marketplace App" class="w-full h-full object-cover object-top">
+                        <div class="absolute top-2 right-2 bg-blue-500 text-white text-xs px-2 py-1 rounded">Hardware</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">IoT Detection Stunting System</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Sistem deteksi dini stunting berbasis IoT menggunakan sensor berat badan dan tinggi badan yang terintegrasi dengan aplikasi software menggunkan python untuk analisis data stunting.
+                        </p>
+                        <div class="flex gap-2 mb-4">
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">C++ (IoT)</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl overflow-hidden hover:transform hover:-translate-y-2 transition duration-300">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="asset/Apps.jpeg" alt="Marketplace App" class="w-full h-full object-cover object-top">
+                        <div class="absolute top-2 right-2 bg-blue-500 text-white text-xs px-2 py-1 rounded">Mobile App</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">E-Commerce App Design</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Perancangan alur UX dan UI untuk aplikasi marketplace. Mencakup fitur Login, Register, Admin Seller Dashboard, dan Manajemen Menu.
+                        </p>
+                        <div class="flex gap-2 mb-4">
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">Flutter</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">Figma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl overflow-hidden hover:transform hover:-translate-y-2 transition duration-300">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="asset/Game.jpeg" alt="Pixel Game" class="w-full h-full object-cover object-left">
+                        <div class="absolute top-2 right-2 bg-purple-600 text-white text-xs px-2 py-1 rounded">Game Dev</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Pixel Adventure Game</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Game platformer 2D klasik dengan desain pixel art. Mengembangkan logika permainan, rintangan, dan sistem skor.
+                        </p>
+                        <div class="flex gap-2 mb-4">
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">Game Logic</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">Design</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">HTML</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">CSS</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 border-t border-slate-700 py-8 text-center text-slate-500">
+        <p>&copy; 2025 Praise Otniel Beethoven. Dibuat dengan <i class="fas fa-heart text-red-500"></i> & Kopi.</p>
+        <div class="mt-4 space-x-4">
+            <a href="#" class="hover:text-blue-400 text-2xl transition"><i class="fab fa-github"></i></a>
+            <a href="#" class="hover:text-blue-400 text-2xl transition"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="hover:text-pink-500 text-2xl transition"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
